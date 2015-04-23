@@ -1,5 +1,10 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 Alarm System Status
+   #container.col
+    h2 Search
+    p Try searching for "homeid".
+    input(type='search')
+    pre
+    script(src='client.js')
